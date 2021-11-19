@@ -1,0 +1,172 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 960px;
+    margin: auto;
+    z-index: 999;
+}
+
+.judul img{
+    width: 960px;
+    height: 150px;
+}
+
+.judul h1{
+    color: #F53;
+    font-family: sans-serif;
+    font-size: 50px;
+    height: 80px;
+}   
+
+.navigasi{
+    height: 5px;
+    background-color: #f53;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+   
+}
+
+.logo a {
+     font-size: 50px;
+     font-weight: 800;
+     font-family: courier;
+     color: #ffffff;
+}
+
+.menu{
+    float: left;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 40px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #f53;
+    z-index: 1;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px  0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+*:focus{
+    outline: none;
+}
+
+.box{
+    box-sizing: border-box;
+    width: 360px;
+    height: 600px;
+    border: 2px solid #f53;
+    box-shadow: -3px -3px 7px #ffffff73;
+    border-radius: 5px ;
+    background-color: #D3D6DB;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+img{
+    box-sizing: border-box;
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    margin: 0;
+    border: 5px solid #F53;
+    padding: 3px;
+    background-color: white;
+}
+
+input[type="text"],
+input[type="email"]{
+    display: block;
+    box-sizing: border-box;
+    background: none;
+    color: #f53;
+    margin-bottom: 30px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: #f53;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus{
+    border-bottom: 2px solid #F53;
+    border-bottom-right-radius: 20px;
+    color: #F53;
+    transition: 0.2 ease;
+}
+
+button{
+    border: 1px solid #f53;
+    background-color: #99A799 ;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0px;
+    transition: all 0.3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+input[type="file"]{
+    display: none;
+}
+
+label{
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: #99A799;
+    color: white;
+    border: 1px solid #f53;
+    padding: 2px 15px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+label:hover{
+    background-color: #f53;
+    color: #99A799;
+
+}
